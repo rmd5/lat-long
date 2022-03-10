@@ -1,6 +1,6 @@
 {
     "name": "latitude-longitude",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Returns the center of multiple coordinates, and the distance between two coordinates.",
     "license": "MIT",
     "repository": "rmd5/latitude-longitude",
