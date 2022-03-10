@@ -1,9 +1,9 @@
 {
-    "name": "lat-lng",
+    "name": "latitude-longitude",
     "version": "1.0.0",
     "description": "Returns the center of multiple coordinates, and the distance between two coordinates.",
     "license": "MIT",
-    "repository": "rmd5/lat-lng",
+    "repository": "rmd5/latitude-longitude",
     "main": "index.js",
     "keywords": [
         "lat",
@@ -15,6 +15,9 @@
         "center",
         "geo",
         "geographic",
-        "coordinates"
+        "coordinates",
+        "maps",
+        "google",
+        "google maps"
     ]
 }

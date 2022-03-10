@@ -1,4 +1,4 @@
-# lat-long
+# latitude-longitude
 
 Find the distance between two coordinates, or the center coordinates of multiple.
 
@@ -16,19 +16,19 @@ Find the distance between two coordinates, or the center coordinates of multiple
 [npm][]:
 
 ```sh
-npm i lat-long
+npm i latitude-longitude
 ```
 
 [yarn][]:
 
 ```sh
-yarn add lat-long
+yarn add latitude-longitude
 ```
 
 ## Usage
 
 ```js
-import { latLngCenter, latLngDistance } from "lat-long"
+import { latLngCenter, latLngDistance } from "latitude-longitude"
 
 latLngCenter([[40.739683, 73.985151], [40.730601, 74.000447], [40.742256, 74.006344], [40.691805, 73.908089]])
 //=> { lat: 40.72609295152872, long: 73.97499628519203, zoom: 11 }
