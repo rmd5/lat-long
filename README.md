@@ -79,10 +79,10 @@ Object:
 
 ### getDistance()
 
-An integer will be returned with the distance between two points in kilometers.
+An floating point will be returned with the distance between two points in kilometers.
 
 Response:
-`int`
+`float`
 
 ## License
 
