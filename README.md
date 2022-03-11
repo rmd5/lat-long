@@ -10,8 +10,8 @@ Find the distance between two coordinates, or the center coordinates of multiple
 * [Install](#install)
 * [Usage](#usage)
 * [Responses](#responses)
-  * [latLngCenter](#latlngcenter)
-  * [latLngDistance](#latlongdistance)
+  * [getCenter](#getcenter)
+  * [getDistance](#getdistance)
 * [License](#license)
 
 ## Install
@@ -56,7 +56,7 @@ latLngDistance([40.739683, 73.985151], [40.730601, 74.000447])
 
 ## Responses
 
-### latLngCenter
+### getCenter
 
 An object will be returned with lat, lng and zoom keys.
 
@@ -77,7 +77,7 @@ Object:
 }
 ```
 
-### latLongDistance
+### getDistance
 
 An integer will be returned with the distance between two points in kilometers.
 
