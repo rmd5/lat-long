@@ -30,6 +30,20 @@ yarn add latitude-longitude
 
 ## Usage
 
+The names of the functions have been changed to make them more user friendly. Instead of long winded function names, there is a simple `latlng` object that can then call easily readable functions `getCenter()` and `getDistance()`.
+
+New:
+```js
+import latlng from "latitude-longitude"
+
+latlng.getCenter([[40.739683, 73.985151], [40.730601, 74.000447], [40.742256, 74.006344], [40.691805, 73.908089]])
+//=> { lat: 40.72609295152872, long: 73.97499628519203, zoom: 11 }
+
+latlng.getDistance([40.739683, 73.985151], [40.730601, 74.000447])
+//=> 1.6373159082193258
+```
+
+Old (still working):
 ```js
 import { latLngCenter, latLngDistance } from "latitude-longitude"
 

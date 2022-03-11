@@ -1,7 +1,7 @@
 function rad2degr(rad) { return rad * 180 / Math.PI; }
 function degr2rad(degr) { return degr * Math.PI / 180; }
 
-function latLngCenter(latLngInDegr) {
+function getCenter(latLngInDegr) {
     if (latLngInDegr && latLngInDegr.length && latLngInDegr.length > 1) {
         let LATIDX = 0;
         let LNGIDX = 1;
@@ -70,7 +70,7 @@ function distance(lat1, lon1, lat2, lon2) {
     return 12742 * Math.asin(Math.sqrt(a)); // 2 * R; R = 6371 km
 }
 
-function latLngDistance(arr1, arr2) {
+function getDistance(arr1, arr2) {
     if (arr1 && arr2) {
         var p = 0.017453292519943295;    // Math.PI / 180
         var c = Math.cos;
@@ -84,9 +84,11 @@ function latLngDistance(arr1, arr2) {
     }
 }
 
-let functions = {
-    latLngCenter,
-    latLngDistance
+let latlng = {
+    latLngCenter: getCenter,
+    latLngDistance: getDistance,
+    getCenter,
+    getDistance
 }
 
-module.exports = functions
+module.exports = latlng
