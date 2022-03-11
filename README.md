@@ -1,5 +1,8 @@
 # latitude-longitude
 
+[![npm](https://img.shields.io/npm/v/latitude-longitude)](https://www.npmjs.com/package/latitude-longitude)
+![npm](https://img.shields.io/npm/dm/latitude-longitude)
+
 Find the distance between two coordinates, or the center coordinates of multiple.
 
 ## Table of Contents
